@@ -6,7 +6,6 @@ def a():
     return a
 
 def b(var):
-    b = var
     return var
 
 if __name__ == "__main__":
