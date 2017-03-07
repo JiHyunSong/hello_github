@@ -5,12 +5,12 @@ def a():
     a = 1
     return a
 
-def b():
-    return 'b'
-
+def b(var):
+    b = var
+    return var
 
 if __name__ == "__main__":
     print "hello world!"
     print a()
-    print b()
+    print b(3)
 
