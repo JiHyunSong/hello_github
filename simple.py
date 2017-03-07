@@ -2,7 +2,8 @@
 
 
 def a():
-    return 'a'
+    a = 1
+    return a
 
 def b(var):
     return var
